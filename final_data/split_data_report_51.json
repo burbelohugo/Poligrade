@@ -1,0 +1,273 @@
+{
+  "document_tone": {
+    "tone_categories": [
+      {
+        "category_id": "emotion_tone", 
+        "tones": [
+          {
+            "tone_name": "Anger", 
+            "score": 0.213856, 
+            "tone_id": "anger"
+          }, 
+          {
+            "tone_name": "Disgust", 
+            "score": 0.065157, 
+            "tone_id": "disgust"
+          }, 
+          {
+            "tone_name": "Fear", 
+            "score": 0.24163, 
+            "tone_id": "fear"
+          }, 
+          {
+            "tone_name": "Joy", 
+            "score": 0.012168, 
+            "tone_id": "joy"
+          }, 
+          {
+            "tone_name": "Sadness", 
+            "score": 0.697212, 
+            "tone_id": "sadness"
+          }
+        ], 
+        "category_name": "Emotion Tone"
+      }, 
+      {
+        "category_id": "writing_tone", 
+        "tones": [
+          {
+            "tone_name": "Analytical", 
+            "score": 0.0, 
+            "tone_id": "analytical"
+          }, 
+          {
+            "tone_name": "Confident", 
+            "score": 0.0, 
+            "tone_id": "confident"
+          }, 
+          {
+            "tone_name": "Tentative", 
+            "score": 0.920133, 
+            "tone_id": "tentative"
+          }
+        ], 
+        "category_name": "Writing Tone"
+      }, 
+      {
+        "category_id": "social_tone", 
+        "tones": [
+          {
+            "tone_name": "Openness", 
+            "score": 0.432102, 
+            "tone_id": "openness_big5"
+          }, 
+          {
+            "tone_name": "Conscientiousness", 
+            "score": 0.03977, 
+            "tone_id": "conscientiousness_big5"
+          }, 
+          {
+            "tone_name": "Extraversion", 
+            "score": 0.107442, 
+            "tone_id": "extraversion_big5"
+          }, 
+          {
+            "tone_name": "Agreeableness", 
+            "score": 0.199696, 
+            "tone_id": "agreeableness_big5"
+          }, 
+          {
+            "tone_name": "Emotional Range", 
+            "score": 0.341217, 
+            "tone_id": "neuroticism_big5"
+          }
+        ], 
+        "category_name": "Social Tone"
+      }
+    ]
+  }, 
+  "sentences_tone": [
+    {
+      "input_to": 36, 
+      "text": "Are u the leaker hiding in a corner?", 
+      "sentence_id": 0, 
+      "tone_categories": [
+        {
+          "category_id": "emotion_tone", 
+          "tones": [
+            {
+              "tone_name": "Anger", 
+              "score": 0.13978, 
+              "tone_id": "anger"
+            }, 
+            {
+              "tone_name": "Disgust", 
+              "score": 0.097602, 
+              "tone_id": "disgust"
+            }, 
+            {
+              "tone_name": "Fear", 
+              "score": 0.462473, 
+              "tone_id": "fear"
+            }, 
+            {
+              "tone_name": "Joy", 
+              "score": 0.038736, 
+              "tone_id": "joy"
+            }, 
+            {
+              "tone_name": "Sadness", 
+              "score": 0.473011, 
+              "tone_id": "sadness"
+            }
+          ], 
+          "category_name": "Emotion Tone"
+        }, 
+        {
+          "category_id": "writing_tone", 
+          "tones": [
+            {
+              "tone_name": "Analytical", 
+              "score": 0.0, 
+              "tone_id": "analytical"
+            }, 
+            {
+              "tone_name": "Confident", 
+              "score": 0.0, 
+              "tone_id": "confident"
+            }, 
+            {
+              "tone_name": "Tentative", 
+              "score": 0.0, 
+              "tone_id": "tentative"
+            }
+          ], 
+          "category_name": "Writing Tone"
+        }, 
+        {
+          "category_id": "social_tone", 
+          "tones": [
+            {
+              "tone_name": "Openness", 
+              "score": 0.451892, 
+              "tone_id": "openness_big5"
+            }, 
+            {
+              "tone_name": "Conscientiousness", 
+              "score": 0.130365, 
+              "tone_id": "conscientiousness_big5"
+            }, 
+            {
+              "tone_name": "Extraversion", 
+              "score": 0.438397, 
+              "tone_id": "extraversion_big5"
+            }, 
+            {
+              "tone_name": "Agreeableness", 
+              "score": 0.286305, 
+              "tone_id": "agreeableness_big5"
+            }, 
+            {
+              "tone_name": "Emotional Range", 
+              "score": 0.34564, 
+              "tone_id": "neuroticism_big5"
+            }
+          ], 
+          "category_name": "Social Tone"
+        }
+      ], 
+      "input_from": 0
+    }, 
+    {
+      "input_to": 117, 
+      "text": "Maybe should replace sessions who will ask the hard que\u2026 https://t.co/E8Hgvw7hhj", 
+      "sentence_id": 1, 
+      "tone_categories": [
+        {
+          "category_id": "emotion_tone", 
+          "tones": [
+            {
+              "tone_name": "Anger", 
+              "score": 0.20735, 
+              "tone_id": "anger"
+            }, 
+            {
+              "tone_name": "Disgust", 
+              "score": 0.055609, 
+              "tone_id": "disgust"
+            }, 
+            {
+              "tone_name": "Fear", 
+              "score": 0.137386, 
+              "tone_id": "fear"
+            }, 
+            {
+              "tone_name": "Joy", 
+              "score": 0.029874, 
+              "tone_id": "joy"
+            }, 
+            {
+              "tone_name": "Sadness", 
+              "score": 0.665638, 
+              "tone_id": "sadness"
+            }
+          ], 
+          "category_name": "Emotion Tone"
+        }, 
+        {
+          "category_id": "writing_tone", 
+          "tones": [
+            {
+              "tone_name": "Analytical", 
+              "score": 0.0, 
+              "tone_id": "analytical"
+            }, 
+            {
+              "tone_name": "Confident", 
+              "score": 0.0, 
+              "tone_id": "confident"
+            }, 
+            {
+              "tone_name": "Tentative", 
+              "score": 0.822231, 
+              "tone_id": "tentative"
+            }
+          ], 
+          "category_name": "Writing Tone"
+        }, 
+        {
+          "category_id": "social_tone", 
+          "tones": [
+            {
+              "tone_name": "Openness", 
+              "score": 0.457079, 
+              "tone_id": "openness_big5"
+            }, 
+            {
+              "tone_name": "Conscientiousness", 
+              "score": 0.253645, 
+              "tone_id": "conscientiousness_big5"
+            }, 
+            {
+              "tone_name": "Extraversion", 
+              "score": 0.225317, 
+              "tone_id": "extraversion_big5"
+            }, 
+            {
+              "tone_name": "Agreeableness", 
+              "score": 0.439257, 
+              "tone_id": "agreeableness_big5"
+            }, 
+            {
+              "tone_name": "Emotional Range", 
+              "score": 0.468197, 
+              "tone_id": "neuroticism_big5"
+            }
+          ], 
+          "category_name": "Social Tone"
+        }
+      ], 
+      "input_from": 37
+    }
+  ]
+}

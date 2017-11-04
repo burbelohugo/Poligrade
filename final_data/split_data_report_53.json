@@ -1,0 +1,273 @@
+{
+  "document_tone": {
+    "tone_categories": [
+      {
+        "category_id": "emotion_tone", 
+        "tones": [
+          {
+            "tone_name": "Anger", 
+            "score": 0.068485, 
+            "tone_id": "anger"
+          }, 
+          {
+            "tone_name": "Disgust", 
+            "score": 0.059048, 
+            "tone_id": "disgust"
+          }, 
+          {
+            "tone_name": "Fear", 
+            "score": 0.167408, 
+            "tone_id": "fear"
+          }, 
+          {
+            "tone_name": "Joy", 
+            "score": 0.488624, 
+            "tone_id": "joy"
+          }, 
+          {
+            "tone_name": "Sadness", 
+            "score": 0.21343, 
+            "tone_id": "sadness"
+          }
+        ], 
+        "category_name": "Emotion Tone"
+      }, 
+      {
+        "category_id": "writing_tone", 
+        "tones": [
+          {
+            "tone_name": "Analytical", 
+            "score": 0.405753, 
+            "tone_id": "analytical"
+          }, 
+          {
+            "tone_name": "Confident", 
+            "score": 0.0, 
+            "tone_id": "confident"
+          }, 
+          {
+            "tone_name": "Tentative", 
+            "score": 0.0, 
+            "tone_id": "tentative"
+          }
+        ], 
+        "category_name": "Writing Tone"
+      }, 
+      {
+        "category_id": "social_tone", 
+        "tones": [
+          {
+            "tone_name": "Openness", 
+            "score": 0.417872, 
+            "tone_id": "openness_big5"
+          }, 
+          {
+            "tone_name": "Conscientiousness", 
+            "score": 0.2938, 
+            "tone_id": "conscientiousness_big5"
+          }, 
+          {
+            "tone_name": "Extraversion", 
+            "score": 0.368183, 
+            "tone_id": "extraversion_big5"
+          }, 
+          {
+            "tone_name": "Agreeableness", 
+            "score": 0.251218, 
+            "tone_id": "agreeableness_big5"
+          }, 
+          {
+            "tone_name": "Emotional Range", 
+            "score": 0.755419, 
+            "tone_id": "neuroticism_big5"
+          }
+        ], 
+        "category_name": "Social Tone"
+      }
+    ]
+  }, 
+  "sentences_tone": [
+    {
+      "input_to": 59, 
+      "text": "This Nixon wannabe will end up in the same place as he did.", 
+      "sentence_id": 0, 
+      "tone_categories": [
+        {
+          "category_id": "emotion_tone", 
+          "tones": [
+            {
+              "tone_name": "Anger", 
+              "score": 0.139954, 
+              "tone_id": "anger"
+            }, 
+            {
+              "tone_name": "Disgust", 
+              "score": 0.057037, 
+              "tone_id": "disgust"
+            }, 
+            {
+              "tone_name": "Fear", 
+              "score": 0.097333, 
+              "tone_id": "fear"
+            }, 
+            {
+              "tone_name": "Joy", 
+              "score": 0.420815, 
+              "tone_id": "joy"
+            }, 
+            {
+              "tone_name": "Sadness", 
+              "score": 0.239924, 
+              "tone_id": "sadness"
+            }
+          ], 
+          "category_name": "Emotion Tone"
+        }, 
+        {
+          "category_id": "writing_tone", 
+          "tones": [
+            {
+              "tone_name": "Analytical", 
+              "score": 0.318744, 
+              "tone_id": "analytical"
+            }, 
+            {
+              "tone_name": "Confident", 
+              "score": 0.0, 
+              "tone_id": "confident"
+            }, 
+            {
+              "tone_name": "Tentative", 
+              "score": 0.0, 
+              "tone_id": "tentative"
+            }
+          ], 
+          "category_name": "Writing Tone"
+        }, 
+        {
+          "category_id": "social_tone", 
+          "tones": [
+            {
+              "tone_name": "Openness", 
+              "score": 0.42332, 
+              "tone_id": "openness_big5"
+            }, 
+            {
+              "tone_name": "Conscientiousness", 
+              "score": 0.499103, 
+              "tone_id": "conscientiousness_big5"
+            }, 
+            {
+              "tone_name": "Extraversion", 
+              "score": 0.524348, 
+              "tone_id": "extraversion_big5"
+            }, 
+            {
+              "tone_name": "Agreeableness", 
+              "score": 0.27094, 
+              "tone_id": "agreeableness_big5"
+            }, 
+            {
+              "tone_name": "Emotional Range", 
+              "score": 0.799441, 
+              "tone_id": "neuroticism_big5"
+            }
+          ], 
+          "category_name": "Social Tone"
+        }
+      ], 
+      "input_from": 0
+    }, 
+    {
+      "input_to": 76, 
+      "text": "History repeats!", 
+      "sentence_id": 1, 
+      "tone_categories": [
+        {
+          "category_id": "emotion_tone", 
+          "tones": [
+            {
+              "tone_name": "Anger", 
+              "score": 0.049415, 
+              "tone_id": "anger"
+            }, 
+            {
+              "tone_name": "Disgust", 
+              "score": 0.075615, 
+              "tone_id": "disgust"
+            }, 
+            {
+              "tone_name": "Fear", 
+              "score": 0.212769, 
+              "tone_id": "fear"
+            }, 
+            {
+              "tone_name": "Joy", 
+              "score": 0.37462, 
+              "tone_id": "joy"
+            }, 
+            {
+              "tone_name": "Sadness", 
+              "score": 0.19585, 
+              "tone_id": "sadness"
+            }
+          ], 
+          "category_name": "Emotion Tone"
+        }, 
+        {
+          "category_id": "writing_tone", 
+          "tones": [
+            {
+              "tone_name": "Analytical", 
+              "score": 0.0, 
+              "tone_id": "analytical"
+            }, 
+            {
+              "tone_name": "Confident", 
+              "score": 0.0, 
+              "tone_id": "confident"
+            }, 
+            {
+              "tone_name": "Tentative", 
+              "score": 0.0, 
+              "tone_id": "tentative"
+            }
+          ], 
+          "category_name": "Writing Tone"
+        }, 
+        {
+          "category_id": "social_tone", 
+          "tones": [
+            {
+              "tone_name": "Openness", 
+              "score": 0.302108, 
+              "tone_id": "openness_big5"
+            }, 
+            {
+              "tone_name": "Conscientiousness", 
+              "score": 0.274436, 
+              "tone_id": "conscientiousness_big5"
+            }, 
+            {
+              "tone_name": "Extraversion", 
+              "score": 0.543301, 
+              "tone_id": "extraversion_big5"
+            }, 
+            {
+              "tone_name": "Agreeableness", 
+              "score": 0.59948, 
+              "tone_id": "agreeableness_big5"
+            }, 
+            {
+              "tone_name": "Emotional Range", 
+              "score": 0.299059, 
+              "tone_id": "neuroticism_big5"
+            }
+          ], 
+          "category_name": "Social Tone"
+        }
+      ], 
+      "input_from": 60
+    }
+  ]
+}

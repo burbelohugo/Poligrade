@@ -1,0 +1,364 @@
+{
+  "document_tone": {
+    "tone_categories": [
+      {
+        "category_id": "emotion_tone", 
+        "tones": [
+          {
+            "tone_name": "Anger", 
+            "score": 0.255485, 
+            "tone_id": "anger"
+          }, 
+          {
+            "tone_name": "Disgust", 
+            "score": 0.17954, 
+            "tone_id": "disgust"
+          }, 
+          {
+            "tone_name": "Fear", 
+            "score": 0.044781, 
+            "tone_id": "fear"
+          }, 
+          {
+            "tone_name": "Joy", 
+            "score": 0.210736, 
+            "tone_id": "joy"
+          }, 
+          {
+            "tone_name": "Sadness", 
+            "score": 0.086145, 
+            "tone_id": "sadness"
+          }
+        ], 
+        "category_name": "Emotion Tone"
+      }, 
+      {
+        "category_id": "writing_tone", 
+        "tones": [
+          {
+            "tone_name": "Analytical", 
+            "score": 0.988725, 
+            "tone_id": "analytical"
+          }, 
+          {
+            "tone_name": "Confident", 
+            "score": 0.942754, 
+            "tone_id": "confident"
+          }, 
+          {
+            "tone_name": "Tentative", 
+            "score": 0.0, 
+            "tone_id": "tentative"
+          }
+        ], 
+        "category_name": "Writing Tone"
+      }, 
+      {
+        "category_id": "social_tone", 
+        "tones": [
+          {
+            "tone_name": "Openness", 
+            "score": 0.450276, 
+            "tone_id": "openness_big5"
+          }, 
+          {
+            "tone_name": "Conscientiousness", 
+            "score": 0.433922, 
+            "tone_id": "conscientiousness_big5"
+          }, 
+          {
+            "tone_name": "Extraversion", 
+            "score": 0.111288, 
+            "tone_id": "extraversion_big5"
+          }, 
+          {
+            "tone_name": "Agreeableness", 
+            "score": 0.405829, 
+            "tone_id": "agreeableness_big5"
+          }, 
+          {
+            "tone_name": "Emotional Range", 
+            "score": 0.794842, 
+            "tone_id": "neuroticism_big5"
+          }
+        ], 
+        "category_name": "Social Tone"
+      }
+    ]
+  }, 
+  "sentences_tone": [
+    {
+      "input_to": 37, 
+      "text": "#45 actions are proven to be correct!", 
+      "sentence_id": 0, 
+      "tone_categories": [
+        {
+          "category_id": "emotion_tone", 
+          "tones": [
+            {
+              "tone_name": "Anger", 
+              "score": 0.14321, 
+              "tone_id": "anger"
+            }, 
+            {
+              "tone_name": "Disgust", 
+              "score": 0.24065, 
+              "tone_id": "disgust"
+            }, 
+            {
+              "tone_name": "Fear", 
+              "score": 0.031429, 
+              "tone_id": "fear"
+            }, 
+            {
+              "tone_name": "Joy", 
+              "score": 0.142619, 
+              "tone_id": "joy"
+            }, 
+            {
+              "tone_name": "Sadness", 
+              "score": 0.052497, 
+              "tone_id": "sadness"
+            }
+          ], 
+          "category_name": "Emotion Tone"
+        }, 
+        {
+          "category_id": "writing_tone", 
+          "tones": [
+            {
+              "tone_name": "Analytical", 
+              "score": 0.801827, 
+              "tone_id": "analytical"
+            }, 
+            {
+              "tone_name": "Confident", 
+              "score": 0.92125, 
+              "tone_id": "confident"
+            }, 
+            {
+              "tone_name": "Tentative", 
+              "score": 0.0, 
+              "tone_id": "tentative"
+            }
+          ], 
+          "category_name": "Writing Tone"
+        }, 
+        {
+          "category_id": "social_tone", 
+          "tones": [
+            {
+              "tone_name": "Openness", 
+              "score": 0.51355, 
+              "tone_id": "openness_big5"
+            }, 
+            {
+              "tone_name": "Conscientiousness", 
+              "score": 0.307059, 
+              "tone_id": "conscientiousness_big5"
+            }, 
+            {
+              "tone_name": "Extraversion", 
+              "score": 0.532327, 
+              "tone_id": "extraversion_big5"
+            }, 
+            {
+              "tone_name": "Agreeableness", 
+              "score": 0.582756, 
+              "tone_id": "agreeableness_big5"
+            }, 
+            {
+              "tone_name": "Emotional Range", 
+              "score": 0.461293, 
+              "tone_id": "neuroticism_big5"
+            }
+          ], 
+          "category_name": "Social Tone"
+        }
+      ], 
+      "input_from": 0
+    }, 
+    {
+      "input_to": 62, 
+      "text": "He DOES ask for loyalty!", 
+      "sentence_id": 1, 
+      "tone_categories": [
+        {
+          "category_id": "emotion_tone", 
+          "tones": [
+            {
+              "tone_name": "Anger", 
+              "score": 0.216654, 
+              "tone_id": "anger"
+            }, 
+            {
+              "tone_name": "Disgust", 
+              "score": 0.071231, 
+              "tone_id": "disgust"
+            }, 
+            {
+              "tone_name": "Fear", 
+              "score": 0.098084, 
+              "tone_id": "fear"
+            }, 
+            {
+              "tone_name": "Joy", 
+              "score": 0.196243, 
+              "tone_id": "joy"
+            }, 
+            {
+              "tone_name": "Sadness", 
+              "score": 0.206041, 
+              "tone_id": "sadness"
+            }
+          ], 
+          "category_name": "Emotion Tone"
+        }, 
+        {
+          "category_id": "writing_tone", 
+          "tones": [
+            {
+              "tone_name": "Analytical", 
+              "score": 0.965509, 
+              "tone_id": "analytical"
+            }, 
+            {
+              "tone_name": "Confident", 
+              "score": 0.0, 
+              "tone_id": "confident"
+            }, 
+            {
+              "tone_name": "Tentative", 
+              "score": 0.0, 
+              "tone_id": "tentative"
+            }
+          ], 
+          "category_name": "Writing Tone"
+        }, 
+        {
+          "category_id": "social_tone", 
+          "tones": [
+            {
+              "tone_name": "Openness", 
+              "score": 0.475054, 
+              "tone_id": "openness_big5"
+            }, 
+            {
+              "tone_name": "Conscientiousness", 
+              "score": 0.313575, 
+              "tone_id": "conscientiousness_big5"
+            }, 
+            {
+              "tone_name": "Extraversion", 
+              "score": 0.541687, 
+              "tone_id": "extraversion_big5"
+            }, 
+            {
+              "tone_name": "Agreeableness", 
+              "score": 0.590866, 
+              "tone_id": "agreeableness_big5"
+            }, 
+            {
+              "tone_name": "Emotional Range", 
+              "score": 0.656135, 
+              "tone_id": "neuroticism_big5"
+            }
+          ], 
+          "category_name": "Social Tone"
+        }
+      ], 
+      "input_from": 38
+    }, 
+    {
+      "input_to": 118, 
+      "text": "If he doesn't get it he DOES s\u2026 https://t.co/0woXfETLzQ", 
+      "sentence_id": 2, 
+      "tone_categories": [
+        {
+          "category_id": "emotion_tone", 
+          "tones": [
+            {
+              "tone_name": "Anger", 
+              "score": 0.129619, 
+              "tone_id": "anger"
+            }, 
+            {
+              "tone_name": "Disgust", 
+              "score": 0.079431, 
+              "tone_id": "disgust"
+            }, 
+            {
+              "tone_name": "Fear", 
+              "score": 0.092952, 
+              "tone_id": "fear"
+            }, 
+            {
+              "tone_name": "Joy", 
+              "score": 0.173444, 
+              "tone_id": "joy"
+            }, 
+            {
+              "tone_name": "Sadness", 
+              "score": 0.171162, 
+              "tone_id": "sadness"
+            }
+          ], 
+          "category_name": "Emotion Tone"
+        }, 
+        {
+          "category_id": "writing_tone", 
+          "tones": [
+            {
+              "tone_name": "Analytical", 
+              "score": 0.961593, 
+              "tone_id": "analytical"
+            }, 
+            {
+              "tone_name": "Confident", 
+              "score": 0.0, 
+              "tone_id": "confident"
+            }, 
+            {
+              "tone_name": "Tentative", 
+              "score": 0.0, 
+              "tone_id": "tentative"
+            }
+          ], 
+          "category_name": "Writing Tone"
+        }, 
+        {
+          "category_id": "social_tone", 
+          "tones": [
+            {
+              "tone_name": "Openness", 
+              "score": 0.138137, 
+              "tone_id": "openness_big5"
+            }, 
+            {
+              "tone_name": "Conscientiousness", 
+              "score": 0.289828, 
+              "tone_id": "conscientiousness_big5"
+            }, 
+            {
+              "tone_name": "Extraversion", 
+              "score": 0.161808, 
+              "tone_id": "extraversion_big5"
+            }, 
+            {
+              "tone_name": "Agreeableness", 
+              "score": 0.430313, 
+              "tone_id": "agreeableness_big5"
+            }, 
+            {
+              "tone_name": "Emotional Range", 
+              "score": 0.578338, 
+              "tone_id": "neuroticism_big5"
+            }
+          ], 
+          "category_name": "Social Tone"
+        }
+      ], 
+      "input_from": 63
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "document_tone": {
+    "tone_categories": [
+      {
+        "category_id": "emotion_tone", 
+        "tones": [
+          {
+            "tone_name": "Anger", 
+            "score": 0.06349, 
+            "tone_id": "anger"
+          }, 
+          {
+            "tone_name": "Disgust", 
+            "score": 0.204463, 
+            "tone_id": "disgust"
+          }, 
+          {
+            "tone_name": "Fear", 
+            "score": 0.848692, 
+            "tone_id": "fear"
+          }, 
+          {
+            "tone_name": "Joy", 
+            "score": 0.003862, 
+            "tone_id": "joy"
+          }, 
+          {
+            "tone_name": "Sadness", 
+            "score": 0.058917, 
+            "tone_id": "sadness"
+          }
+        ], 
+        "category_name": "Emotion Tone"
+      }, 
+      {
+        "category_id": "writing_tone", 
+        "tones": [
+          {
+            "tone_name": "Analytical", 
+            "score": 0.0, 
+            "tone_id": "analytical"
+          }, 
+          {
+            "tone_name": "Confident", 
+            "score": 0.0, 
+            "tone_id": "confident"
+          }, 
+          {
+            "tone_name": "Tentative", 
+            "score": 0.0, 
+            "tone_id": "tentative"
+          }
+        ], 
+        "category_name": "Writing Tone"
+      }, 
+      {
+        "category_id": "social_tone", 
+        "tones": [
+          {
+            "tone_name": "Openness", 
+            "score": 0.005654, 
+            "tone_id": "openness_big5"
+          }, 
+          {
+            "tone_name": "Conscientiousness", 
+            "score": 0.175161, 
+            "tone_id": "conscientiousness_big5"
+          }, 
+          {
+            "tone_name": "Extraversion", 
+            "score": 0.442656, 
+            "tone_id": "extraversion_big5"
+          }, 
+          {
+            "tone_name": "Agreeableness", 
+            "score": 0.353924, 
+            "tone_id": "agreeableness_big5"
+          }, 
+          {
+            "tone_name": "Emotional Range", 
+            "score": 0.546941, 
+            "tone_id": "neuroticism_big5"
+          }
+        ], 
+        "category_name": "Social Tone"
+      }
+    ]
+  }, 
+  "sentences_tone": [
+    {
+      "input_to": 55, 
+      "text": "Congress needs to stand up for Country not Putin trump.", 
+      "sentence_id": 0, 
+      "tone_categories": [
+        {
+          "category_id": "emotion_tone", 
+          "tones": [
+            {
+              "tone_name": "Anger", 
+              "score": 0.239312, 
+              "tone_id": "anger"
+            }, 
+            {
+              "tone_name": "Disgust", 
+              "score": 0.525441, 
+              "tone_id": "disgust"
+            }, 
+            {
+              "tone_name": "Fear", 
+              "score": 0.184975, 
+              "tone_id": "fear"
+            }, 
+            {
+              "tone_name": "Joy", 
+              "score": 0.026373, 
+              "tone_id": "joy"
+            }, 
+            {
+              "tone_name": "Sadness", 
+              "score": 0.253305, 
+              "tone_id": "sadness"
+            }
+          ], 
+          "category_name": "Emotion Tone"
+        }, 
+        {
+          "category_id": "writing_tone", 
+          "tones": [
+            {
+              "tone_name": "Analytical", 
+              "score": 0.0, 
+              "tone_id": "analytical"
+            }, 
+            {
+              "tone_name": "Confident", 
+              "score": 0.0, 
+              "tone_id": "confident"
+            }, 
+            {
+              "tone_name": "Tentative", 
+              "score": 0.0, 
+              "tone_id": "tentative"
+            }
+          ], 
+          "category_name": "Writing Tone"
+        }, 
+        {
+          "category_id": "social_tone", 
+          "tones": [
+            {
+              "tone_name": "Openness", 
+              "score": 0.032348, 
+              "tone_id": "openness_big5"
+            }, 
+            {
+              "tone_name": "Conscientiousness", 
+              "score": 0.324738, 
+              "tone_id": "conscientiousness_big5"
+            }, 
+            {
+              "tone_name": "Extraversion", 
+              "score": 0.735782, 
+              "tone_id": "extraversion_big5"
+            }, 
+            {
+              "tone_name": "Agreeableness", 
+              "score": 0.451512, 
+              "tone_id": "agreeableness_big5"
+            }, 
+            {
+              "tone_name": "Emotional Range", 
+              "score": 0.65943, 
+              "tone_id": "neuroticism_big5"
+            }
+          ], 
+          "category_name": "Social Tone"
+        }
+      ], 
+      "input_from": 0
+    }, 
+    {
+      "input_to": 75, 
+      "text": "What r u afraid of?", 
+      "sentence_id": 1, 
+      "tone_categories": [
+        {
+          "category_id": "emotion_tone", 
+          "tones": [
+            {
+              "tone_name": "Anger", 
+              "score": 0.004709, 
+              "tone_id": "anger"
+            }, 
+            {
+              "tone_name": "Disgust", 
+              "score": 0.013508, 
+              "tone_id": "disgust"
+            }, 
+            {
+              "tone_name": "Fear", 
+              "score": 0.858038, 
+              "tone_id": "fear"
+            }, 
+            {
+              "tone_name": "Joy", 
+              "score": 0.011762, 
+              "tone_id": "joy"
+            }, 
+            {
+              "tone_name": "Sadness", 
+              "score": 0.047104, 
+              "tone_id": "sadness"
+            }
+          ], 
+          "category_name": "Emotion Tone"
+        }, 
+        {
+          "category_id": "writing_tone", 
+          "tones": [
+            {
+              "tone_name": "Analytical", 
+              "score": 0.0, 
+              "tone_id": "analytical"
+            }, 
+            {
+              "tone_name": "Confident", 
+              "score": 0.0, 
+              "tone_id": "confident"
+            }, 
+            {
+              "tone_name": "Tentative", 
+              "score": 0.0, 
+              "tone_id": "tentative"
+            }
+          ], 
+          "category_name": "Writing Tone"
+        }, 
+        {
+          "category_id": "social_tone", 
+          "tones": [
+            {
+              "tone_name": "Openness", 
+              "score": 0.126891, 
+              "tone_id": "openness_big5"
+            }, 
+            {
+              "tone_name": "Conscientiousness", 
+              "score": 0.27438, 
+              "tone_id": "conscientiousness_big5"
+            }, 
+            {
+              "tone_name": "Extraversion", 
+              "score": 0.426443, 
+              "tone_id": "extraversion_big5"
+            }, 
+            {
+              "tone_name": "Agreeableness", 
+              "score": 0.574714, 
+              "tone_id": "agreeableness_big5"
+            }, 
+            {
+              "tone_name": "Emotional Range", 
+              "score": 0.240247, 
+              "tone_id": "neuroticism_big5"
+            }
+          ], 
+          "category_name": "Social Tone"
+        }
+      ], 
+      "input_from": 56
+    }, 
+    {
+      "input_to": 117, 
+      "text": "Stand up for our\u2026 https://t.co/HqWEIoG7xH", 
+      "sentence_id": 2, 
+      "tone_categories": [
+        {
+          "category_id": "emotion_tone", 
+          "tones": [
+            {
+              "tone_name": "Anger", 
+              "score": 0.0, 
+              "tone_id": "anger"
+            }, 
+            {
+              "tone_name": "Disgust", 
+              "score": 0.0, 
+              "tone_id": "disgust"
+            }, 
+            {
+              "tone_name": "Fear", 
+              "score": 0.0, 
+              "tone_id": "fear"
+            }, 
+            {
+              "tone_name": "Joy", 
+              "score": 0.0, 
+              "tone_id": "joy"
+            }, 
+            {
+              "tone_name": "Sadness", 
+              "score": 0.0, 
+              "tone_id": "sadness"
+            }
+          ], 
+          "category_name": "Emotion Tone"
+        }, 
+        {
+          "category_id": "writing_tone", 
+          "tones": [
+            {
+              "tone_name": "Analytical", 
+              "score": 0.0, 
+              "tone_id": "analytical"
+            }, 
+            {
+              "tone_name": "Confident", 
+              "score": 0.0, 
+              "tone_id": "confident"
+            }, 
+            {
+              "tone_name": "Tentative", 
+              "score": 0.0, 
+              "tone_id": "tentative"
+            }
+          ], 
+          "category_name": "Writing Tone"
+        }, 
+        {
+          "category_id": "social_tone", 
+          "tones": [
+            {
+              "tone_name": "Openness", 
+              "score": 0.123954, 
+              "tone_id": "openness_big5"
+            }, 
+            {
+              "tone_name": "Conscientiousness", 
+              "score": 0.312287, 
+              "tone_id": "conscientiousness_big5"
+            }, 
+            {
+              "tone_name": "Extraversion", 
+              "score": 0.60132, 
+              "tone_id": "extraversion_big5"
+            }, 
+            {
+              "tone_name": "Agreeableness", 
+              "score": 0.560612, 
+              "tone_id": "agreeableness_big5"
+            }, 
+            {
+              "tone_name": "Emotional Range", 
+              "score": 0.425625, 
+              "tone_id": "neuroticism_big5"
+            }
+          ], 
+          "category_name": "Social Tone"
+        }
+      ], 
+      "input_from": 76
+    }
+  ]
+}

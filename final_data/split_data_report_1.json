@@ -1,0 +1,364 @@
+{
+  "document_tone": {
+    "tone_categories": [
+      {
+        "category_id": "emotion_tone", 
+        "tones": [
+          {
+            "tone_name": "Anger", 
+            "score": 0.574037, 
+            "tone_id": "anger"
+          }, 
+          {
+            "tone_name": "Disgust", 
+            "score": 0.429518, 
+            "tone_id": "disgust"
+          }, 
+          {
+            "tone_name": "Fear", 
+            "score": 0.109987, 
+            "tone_id": "fear"
+          }, 
+          {
+            "tone_name": "Joy", 
+            "score": 0.005388, 
+            "tone_id": "joy"
+          }, 
+          {
+            "tone_name": "Sadness", 
+            "score": 0.249046, 
+            "tone_id": "sadness"
+          }
+        ], 
+        "category_name": "Emotion Tone"
+      }, 
+      {
+        "category_id": "writing_tone", 
+        "tones": [
+          {
+            "tone_name": "Analytical", 
+            "score": 0.04042, 
+            "tone_id": "analytical"
+          }, 
+          {
+            "tone_name": "Confident", 
+            "score": 0.0, 
+            "tone_id": "confident"
+          }, 
+          {
+            "tone_name": "Tentative", 
+            "score": 0.890302, 
+            "tone_id": "tentative"
+          }
+        ], 
+        "category_name": "Writing Tone"
+      }, 
+      {
+        "category_id": "social_tone", 
+        "tones": [
+          {
+            "tone_name": "Openness", 
+            "score": 0.613223, 
+            "tone_id": "openness_big5"
+          }, 
+          {
+            "tone_name": "Conscientiousness", 
+            "score": 0.931355, 
+            "tone_id": "conscientiousness_big5"
+          }, 
+          {
+            "tone_name": "Extraversion", 
+            "score": 0.613167, 
+            "tone_id": "extraversion_big5"
+          }, 
+          {
+            "tone_name": "Agreeableness", 
+            "score": 0.691369, 
+            "tone_id": "agreeableness_big5"
+          }, 
+          {
+            "tone_name": "Emotional Range", 
+            "score": 0.897823, 
+            "tone_id": "neuroticism_big5"
+          }
+        ], 
+        "category_name": "Social Tone"
+      }
+    ]
+  }, 
+  "sentences_tone": [
+    {
+      "input_to": 51, 
+      "text": "But chances are that the Senate *will* let it work.", 
+      "sentence_id": 0, 
+      "tone_categories": [
+        {
+          "category_id": "emotion_tone", 
+          "tones": [
+            {
+              "tone_name": "Anger", 
+              "score": 0.149473, 
+              "tone_id": "anger"
+            }, 
+            {
+              "tone_name": "Disgust", 
+              "score": 0.119948, 
+              "tone_id": "disgust"
+            }, 
+            {
+              "tone_name": "Fear", 
+              "score": 0.137028, 
+              "tone_id": "fear"
+            }, 
+            {
+              "tone_name": "Joy", 
+              "score": 0.059514, 
+              "tone_id": "joy"
+            }, 
+            {
+              "tone_name": "Sadness", 
+              "score": 0.288595, 
+              "tone_id": "sadness"
+            }
+          ], 
+          "category_name": "Emotion Tone"
+        }, 
+        {
+          "category_id": "writing_tone", 
+          "tones": [
+            {
+              "tone_name": "Analytical", 
+              "score": 0.116314, 
+              "tone_id": "analytical"
+            }, 
+            {
+              "tone_name": "Confident", 
+              "score": 0.0, 
+              "tone_id": "confident"
+            }, 
+            {
+              "tone_name": "Tentative", 
+              "score": 0.798791, 
+              "tone_id": "tentative"
+            }
+          ], 
+          "category_name": "Writing Tone"
+        }, 
+        {
+          "category_id": "social_tone", 
+          "tones": [
+            {
+              "tone_name": "Openness", 
+              "score": 0.624609, 
+              "tone_id": "openness_big5"
+            }, 
+            {
+              "tone_name": "Conscientiousness", 
+              "score": 0.997262, 
+              "tone_id": "conscientiousness_big5"
+            }, 
+            {
+              "tone_name": "Extraversion", 
+              "score": 0.478187, 
+              "tone_id": "extraversion_big5"
+            }, 
+            {
+              "tone_name": "Agreeableness", 
+              "score": 0.799173, 
+              "tone_id": "agreeableness_big5"
+            }, 
+            {
+              "tone_name": "Emotional Range", 
+              "score": 0.944302, 
+              "tone_id": "neuroticism_big5"
+            }
+          ], 
+          "category_name": "Social Tone"
+        }
+      ], 
+      "input_from": 0
+    }, 
+    {
+      "input_to": 89, 
+      "text": "Senate is a bunch of bullied cowards.", 
+      "sentence_id": 1, 
+      "tone_categories": [
+        {
+          "category_id": "emotion_tone", 
+          "tones": [
+            {
+              "tone_name": "Anger", 
+              "score": 0.584769, 
+              "tone_id": "anger"
+            }, 
+            {
+              "tone_name": "Disgust", 
+              "score": 0.49672, 
+              "tone_id": "disgust"
+            }, 
+            {
+              "tone_name": "Fear", 
+              "score": 0.092377, 
+              "tone_id": "fear"
+            }, 
+            {
+              "tone_name": "Joy", 
+              "score": 0.003582, 
+              "tone_id": "joy"
+            }, 
+            {
+              "tone_name": "Sadness", 
+              "score": 0.197971, 
+              "tone_id": "sadness"
+            }
+          ], 
+          "category_name": "Emotion Tone"
+        }, 
+        {
+          "category_id": "writing_tone", 
+          "tones": [
+            {
+              "tone_name": "Analytical", 
+              "score": 0.0, 
+              "tone_id": "analytical"
+            }, 
+            {
+              "tone_name": "Confident", 
+              "score": 0.0, 
+              "tone_id": "confident"
+            }, 
+            {
+              "tone_name": "Tentative", 
+              "score": 0.0, 
+              "tone_id": "tentative"
+            }
+          ], 
+          "category_name": "Writing Tone"
+        }, 
+        {
+          "category_id": "social_tone", 
+          "tones": [
+            {
+              "tone_name": "Openness", 
+              "score": 0.712511, 
+              "tone_id": "openness_big5"
+            }, 
+            {
+              "tone_name": "Conscientiousness", 
+              "score": 0.363015, 
+              "tone_id": "conscientiousness_big5"
+            }, 
+            {
+              "tone_name": "Extraversion", 
+              "score": 0.650887, 
+              "tone_id": "extraversion_big5"
+            }, 
+            {
+              "tone_name": "Agreeableness", 
+              "score": 0.56766, 
+              "tone_id": "agreeableness_big5"
+            }, 
+            {
+              "tone_name": "Emotional Range", 
+              "score": 0.586913, 
+              "tone_id": "neuroticism_big5"
+            }
+          ], 
+          "category_name": "Social Tone"
+        }
+      ], 
+      "input_from": 52
+    }, 
+    {
+      "input_to": 117, 
+      "text": "Mo\u2026 https://t.co/IH5AwMZ4Wn", 
+      "sentence_id": 2, 
+      "tone_categories": [
+        {
+          "category_id": "emotion_tone", 
+          "tones": [
+            {
+              "tone_name": "Anger", 
+              "score": 0.0, 
+              "tone_id": "anger"
+            }, 
+            {
+              "tone_name": "Disgust", 
+              "score": 0.0, 
+              "tone_id": "disgust"
+            }, 
+            {
+              "tone_name": "Fear", 
+              "score": 0.0, 
+              "tone_id": "fear"
+            }, 
+            {
+              "tone_name": "Joy", 
+              "score": 0.0, 
+              "tone_id": "joy"
+            }, 
+            {
+              "tone_name": "Sadness", 
+              "score": 0.0, 
+              "tone_id": "sadness"
+            }
+          ], 
+          "category_name": "Emotion Tone"
+        }, 
+        {
+          "category_id": "writing_tone", 
+          "tones": [
+            {
+              "tone_name": "Analytical", 
+              "score": 0.0, 
+              "tone_id": "analytical"
+            }, 
+            {
+              "tone_name": "Confident", 
+              "score": 0.0, 
+              "tone_id": "confident"
+            }, 
+            {
+              "tone_name": "Tentative", 
+              "score": 0.0, 
+              "tone_id": "tentative"
+            }
+          ], 
+          "category_name": "Writing Tone"
+        }, 
+        {
+          "category_id": "social_tone", 
+          "tones": [
+            {
+              "tone_name": "Openness", 
+              "score": 0.28888, 
+              "tone_id": "openness_big5"
+            }, 
+            {
+              "tone_name": "Conscientiousness", 
+              "score": 0.274434, 
+              "tone_id": "conscientiousness_big5"
+            }, 
+            {
+              "tone_name": "Extraversion", 
+              "score": 0.543325, 
+              "tone_id": "extraversion_big5"
+            }, 
+            {
+              "tone_name": "Agreeableness", 
+              "score": 0.599483, 
+              "tone_id": "agreeableness_big5"
+            }, 
+            {
+              "tone_name": "Emotional Range", 
+              "score": 0.290986, 
+              "tone_id": "neuroticism_big5"
+            }
+          ], 
+          "category_name": "Social Tone"
+        }
+      ], 
+      "input_from": 90
+    }
+  ]
+}

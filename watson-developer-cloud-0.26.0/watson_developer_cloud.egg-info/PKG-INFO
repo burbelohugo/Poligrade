@@ -1,0 +1,129 @@
+Metadata-Version: 1.1
+Name: watson-developer-cloud
+Version: 0.26.0
+Summary: Client library to use the IBM Watson Services
+Home-page: https://github.com/watson-developer-cloud/python-sdk
+Author: Jeffrey Stylos
+Author-email: jsstylos@us.ibm.com
+License: Apache 2.0
+Description: Watson Developer Cloud Python SDK
+        ---------------------------------
+        
+        |Build Status| |codecov.io| |Latest Stable Version| |Download Times|
+        
+        Python client library to quickly get started with the various `Watson
+        Developer Cloud <http://www.ibm.com/watson/developercloud/>`__ services.
+        
+        Installation
+        ------------
+        
+        To install, use ``pip`` or ``easy_install``:
+        
+        .. code:: bash
+        
+            $ pip install --upgrade watson-developer-cloud
+        
+        or
+        
+        .. code:: bash
+        
+            $ easy_install --upgrade watson-developer-cloud
+        
+        Examples
+        --------
+        
+        The
+        `examples <https://github.com/watson-developer-cloud/python-sdk/tree/master/examples>`__
+        folder has basic and advanced examples.
+        
+        Getting the Service Credentials
+        -------------------------------
+        
+        Service credentials are required to access the APIs.
+        
+        If you run your app in Bluemix, you don't need to specify the username
+        and password. In that case, the SDK uses the ``VCAP_SERVICES``
+        environment variable to load the credentials.
+        
+        To run locally or outside of Bluemix you need the ``username`` and
+        ``password`` credentials for each service. (Service credentials are
+        different from your Bluemix account email and password.)
+        
+        To create an instance of the service:
+        
+        1. Log in to `Bluemix <https://console.ng.bluemix.net>`__.
+        2. Create an instance of the service:
+        3. In the Bluemix **Catalog**, select the Watson service you want to
+           use. For example, select the Conversation service.
+        4. Type a unique name for the service instance in the **Service name**
+           field. For example, type ``my-service-name``. Leave the default
+           values for the other options.
+        5. Click **Create**.
+        
+        To get your service credentials:
+        
+        Copy your credentials from the **Service details** page. To find the the
+        Service details page for an existing service, navigate to your Bluemix
+        dashboard and click the service name.
+        
+        1. On the **Service Details** page, click **Service Credentials**, and
+           then **View credentials**.
+        2. Copy ``username`` and ``password``.
+        
+        Python Version
+        --------------
+        
+        Tested on: Python from 2.7 to 3.6. Python 2.6 is partially supported but
+        generates InsecurePlatformWarnings (and other warnings), which can be
+        ignored.
+        
+        CHANGELOG
+        ---------
+        
+        See
+        `CHANGELOG <https://github.com/watson-developer-cloud/python-sdk/blob/master/CHANGELOG.md>`__.
+        
+        Known Issues
+        ------------
+        
+        There is a known incompatibility with this module with Python versions
+        3.x with Korean systems.
+        
+        Dependencies
+        ------------
+        
+        -  `requests <http://docs.python-requests.org/en/latest/>`__
+        -  `responses <https://github.com/getsentry/responses>`__ for testing
+        
+        Contributing
+        ------------
+        
+        See
+        `CONTRIBUTING.md <https://github.com/watson-developer-cloud/python-sdk/blob/master/CONTRIBUTING.md>`__.
+        
+        License
+        -------
+        
+        This library is licensed under the `Apache 2.0
+        license <http://www.apache.org/licenses/LICENSE-2.0>`__.
+        
+        .. |Build Status| image:: https://travis-ci.org/watson-developer-cloud/python-sdk.svg
+           :target: https://travis-ci.org/watson-developer-cloud/python-sdk
+        .. |codecov.io| image:: https://codecov.io/github/watson-developer-cloud/python-sdk/coverage.svg?branch=master
+           :target: https://codecov.io/github/watson-developer-cloud/python-sdk?branch=master
+        .. |Latest Stable Version| image:: https://img.shields.io/pypi/v/watson-developer-cloud.svg
+           :target: https://pypi.python.org/pypi/watson-developer-cloud
+        .. |Download Times| image:: https://img.shields.io/pypi/dm/watson-developer-cloud.svg
+           :target: https://pypi.python.org/pypi/watson-developer-cloud
+        
+Keywords: alchemy datanews,language,vision,question and answer tone_analyzer,natural language classifier,retrieve and rank,tradeoff analytics,text to speech,language translation,language identification,concept expansion,machine translation,personality insights,message resonance,watson developer cloud,wdc,watson,ibm,dialog,user modeling,alchemyapi,alchemy,tone analyzer,speech to text,visual recognition
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
